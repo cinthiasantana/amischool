@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@700&display=swap');
+
+.container-details-course {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 99999;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-course {
+    position: absolute;
+    width: 85%;
+    height: 90vh;
+    background-color: #fff;
+    border-radius: .3rem;
+}
+
+.content-btn-close{
+    position: fixed;
+    display: flex;
+    justify-content: end;
+    width: 85%;
+}
+
+.btn-close{
+    background-color: transparent;
+    cursor: pointer;
+    margin-right: 30px;
+    padding: 20px 10px 10px 10px ;
+    border: 0;
+}
+
+.icon-close {
+    color: #333;
+    font-size: 26px;
+}
+
+/*--------------------------------------------------------------
+# DETALHES DOS CURSOS
+--------------------------------------------------------------*/
+.title-course {
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #F2994A;
+    margin: 40px 0;
+    width: 70%;
+}
+
+.title-course h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    margin: 0 40px;
+}
+
+.description-course {
+    margin: 0 auto;
+    padding: 0 80px 80px 40px;
+}
+
+.description-course::after {
+    content: "";
+    margin-top: 40px;
+    width: 40%;
+    position: absolute;
+    border-bottom: 1px solid #F2994A;
+}
+
+.description-course p {
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.details-about {
+    display: flex;
+    width: 100%;
+    margin: 0 40px 40px 40px;
+}
+
+.details-about h3 {
+    color: #F2994A;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.target-audience,
+.mentors-course {
+    width: 50%;
+    padding-right: 30px;
+}
+
+.target-audience p,
+.mentors-course p {
+    position: relative;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.target-audience .icon,
+.mentors-course .icon {
+    font-size: 14px;
+    color: #F2994A;
+    line-height: 1;
+}
+
+@media (max-width: 768px) {
+    .title-course {
+        width: 100%;
+        height: 100%;
+        padding: 20px 0;
+        margin: -10%;
+    }
+
+    .title-course h1 {
+        width: 90%;
+        font-size: 24px;
+    }
+
+    .description-course p {
+        font-size: 16px;
+    }
+
+    .target-audience h3,
+    .mentors-course h3 {
+        font-size: 20px;
+    }
+
+    .target-audience p,
+    .mentors-course p {
+        font-size: 16px;
+    }
+
+    .target-audience .icon,
+    .mentors-course .icon {
+        font-size: 16px;
+    }
+}
+
+/*--------------------------------------------------------------
+# roadmap
+--------------------------------------------------------------*/
+.roadmap {
+    padding: 40px;
+}
+
+.roadmap h2 {
+    color: #FF0044;
+    margin-bottom: 20px;
+}
+
+.group-roadmap {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    padding: 40px 0;
+}
+
+.roadmap .item-roadmap {
+    align-items: top;
+    display: flex;
+}
+
+.roadmap .item-roadmap p {
+    color: #000;
+    font-weight: 500;
+    width: 80%;
+    height: 100%;
+}
+
+.roadmap .item-roadmap span {
+    background: #FF0044;
+    color: #000;
+    margin-right: 20px;
+    border-radius: 50%;
+    text-align: center;
+    width: 38px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.roadmap .item-roadmap .icon {
+    color: #fff;
+    font-size: 16px;
+}
+
+
+.investment {
+    margin: 80px 0;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e53253;
+    color: #fff;
+    text-align: center;
+}
+
+.investment h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.investment .investment-details p {
+    font-size: 18px;
+    padding: 10px 0;
+}
+
+.investment .investment-details h3 {
+    font-size: 26px;
+    padding: 10px 0;
+    margin-bottom: 40px;
+}
+
+.investment .investment-details h1 {
+    font-size: 60px;
+    font-weight: bolder;
+    font-family: Urbanist;
+    padding-bottom: 10px;
+}
+
+.investment h2::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 60px;
+    margin: 60px auto;
+    border: 1px solid white;
+}
+
+.investment a {
+    border: 1px solid white;
+    color: white;
+    border-radius: 30px;
+    padding: 10px 40px;
+    font-weight: bold;
+    transition: 0.4s;
+}
+
+.informations {
+    padding: 0;
+    margin: 40px 0;
+    text-align: center;
+}
+
+.informations .group-info{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.informations .info-item {
+    padding: 40px;
+    border-left: 1px solid #ddd7d7;
+    margin: -1px;
+}
+
+.informations .info-item h3 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #FF0044;
+}
+
+.informations .info-item p{
+    font-size: 20px;
+    font-weight: 300;
+    margin: 20px auto;
+    width: 90%;
+}

@@ -1,0 +1,143 @@
+.container-contact {
+    padding: 80px;
+    margin: 0 auto;
+    background-color: #BF35AA;
+    color: #fff;
+    position: relative;
+}
+
+
+#contato .title h1 {
+    font-weight: 700;
+    padding: 40px 0;
+}
+
+#contato .intro-contact p {
+    margin-bottom: 40px;
+    width: 85%;
+    line-height: 24px;
+}
+
+#contato .intro-contact {
+    width: 50%;
+}
+
+#contato .content-form {
+    width: 50%;
+}
+
+.content-contact {
+    display: flex;
+    margin-top: 40px;
+}
+
+.description-contact {
+    display: flex;
+    margin-top: 60px;
+}
+
+.address, .social-media{
+    width: 50%;
+    
+}
+
+.address h3, .social-media h3 {
+    margin-bottom: 20px;
+    position: relative;
+    
+}
+.address h3::after, .social-media h3::after {
+    content: '';
+    width: 60%;
+    top: 40px;
+    bottom: 0;
+    left: 0;
+    display: block;
+    position: absolute;
+    border-bottom: 1px solid #ffff;
+}
+
+.social-media .instagram {
+    color: #ffff;
+    padding: 10px 0;
+    font-size: 18px;
+   
+    display: flex;
+    align-items: center;
+}
+
+.social-media .icon{
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.social-media .instagram:hover {
+    color: #E48B34;
+
+}
+
+.content-contact .btn-action {
+    color: #fff;
+    padding: 12px 70px;
+    background-color: #27AE60;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+.form {
+    margin-left: 10px;
+}
+
+#contato .form label {
+    margin-bottom: 10px;
+    font-size: 16px;
+    display: flex;
+  }
+
+  .inputs{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 20px;
+  }
+  #contato .form input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-shadow: none;
+    border: none;
+    width: 100%;
+    outline: none;
+  }
+  
+  #contato .form textarea {
+    box-shadow: none;
+    border: none;
+    width: 100%;
+    border-radius: 4px;
+    outline: none;
+    padding: 20px;
+  }
+  
+  #contato .form .btn-send {
+    width: 40%;
+    background-color: #fff;
+    padding: 14px;
+    border-radius: 50px;
+    color: #BF35AA;
+    font-weight: bold;
+    margin: 20px 0;
+    float: right;
+    border: none;
+    cursor: pointer;
+  }
+
+  #contato::before {
+    content: '';
+    height: 22px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    background-image: linear-gradient(to right, #DE3E82 20%, #C732B0 20%, #C732B0 40%, #AC2DB9 40%, #AC2DB9 60%, #E48B34 50%, #E48B34 80%, #E16A4C 80%, #E16A4C);
+}

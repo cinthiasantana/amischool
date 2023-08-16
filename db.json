@@ -1,0 +1,207 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "image": "https://amischool.com.br/assets/img/banners-cursos/oficina-estilo.jpeg",
+      "title": "Oficina de Estilo para Influencers",
+      "duration": "Duração: 15 horas (06 aulas)",
+      "days": "Datas: 11, 13, 18, 20, 25 e 28 de Setembro",
+      "datesAndTimes": "Segundas e Quartas, das 19:30h - 22:30h",
+      "modality": "Modalidade: Híbrido (Presencial/Online)",
+      "link": ""
+    },
+    {
+      "id": 2,
+      "image": "https://amischool.com.br/assets/img/banners-cursos/design-calcados.jpeg",
+      "title": "Design de Bolsas - Fashion Business",
+      "duration": "Duração: 15 horas (05 aulas)",
+      "days": "Datas: 02, 07, 09, 14 e 16 de Agosto",
+      "datesAndTimes": "Segundas e Quartas, das 19:30h - 22:30h",
+      "modality": "Modalidade: Híbrido (Presencial/Online)",
+      "link": ""
+    },
+    {
+      "title": "cinthia",
+      "duration": "",
+      "days": "",
+      "datesAndTimes": "",
+      "modality": "",
+      "id": 3
+    },
+    {
+      "title": "",
+      "duration": "",
+      "days": "",
+      "datesAndTimes": "",
+      "modality": "",
+      "id": 4
+    }
+  ],
+  "detailsCourses": [
+    {
+      "id": 1,
+      "title": "Oficina de Estilo para Influencers",
+      "about": "Você já pensou em trilhar a criatividade como influencer usando os elementos do design para criar uma linguagem visual coerente? Por trás de cada postagem famosa há um par de olhos super atentos que sabem exatamente o que fazer. \n\n Transmitir consistência, ganhar patrocinadores, faturar alto exige conhecimento e expertise na composição de looks e fotos incríveis. \n\n Definir estilos, as ocasiões de uso e criar uma persona única e estilosa prá você arrasar como influencer é a jornada que vamos trilhar por aqui nesta oficina. Com uma metodologia única vamos te ensinar a construir a persona dos seus sonhos pra você brilhar.",
+      "mentors": [
+        {
+          "id": 1,
+          "name": "Dhora Costa"
+        },
+        {
+          "id": 2,
+          "name": "Eline Juchem e convidado"
+        }
+      ],
+      "targetAudience": [
+        {
+          "id": 1,
+          "description": "Influencers, Consultores de Imagem. Designers, estilistas, entusiastas de moda e produtos."
+        },
+        {
+          "id": 2,
+          "description": "Pré-requesito: um desejo de aprender, mesmo sem nenhuma experiência anterior."
+        }
+      ],
+      "roadmap": [
+        {
+          "id": 1,
+          "description": "Elementos do design aplicado à linguagem visual de moda: tipos físicos, estilos de vestir, linhas e cores."
+        },
+        {
+          "id": 2,
+          "description": "Tendências de comportamento e de moda."
+        },
+        {
+          "id": 3,
+          "description": "O que é persona? Mapeando a persona."
+        },
+        {
+          "id": 4,
+          "description": "Criando uma imagem autêntica: um estilo de vestir único e exclusivo, quebrando regras para ser diferente."
+        },
+        {
+          "id": 5,
+          "description": "Fotografia de moda: Direção criativa: Inspiração, temas favoritos, cenários, jornada de estilo."
+        },
+        {
+          "id": 6,
+          "description": "Personal Branding - Coordenação de cores e de peças, harmonia nos contrastes, criar uma marca pessoal através da consistência de imagem."
+        },
+        {
+          "id": 7,
+          "description": "Criar uma imagem coerente: influencers x marcas patrocinadoras x assuntos divulgados."
+        },
+        {
+          "id": 8,
+          "description": "Montando o seu book pessoal."
+        },
+        {
+          "id": 9,
+          "description": "Bônus: 01 Mentoria em grupo"
+        }
+      ],
+      "investment": [
+        {
+          "cashValue": "1.100,00",
+          "installmentValue": "308,44",
+          "numberInstallments": 4,
+          "link": "https://api.whatsapp.com/send?phone=5511993221695&text=Ol%C3%A1!%20Quero%20garantir%20minha%20vaga%20no%20curso:%20Oficina%20de%20Estilo%20para%20Influencers.%20%20"
+        }
+      ],
+      "informations": [
+        {
+          "dates": "11, 13, 18, 20, 25 e 28 de Setembro ás Segundas e Quartas: 19:30h - 22:30h",
+          "duration": "15 horas de aulas",
+          "modality": "Híbrido \n (Presencial / Online)"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "NOVO CURSO",
+      "about": "Você já pensou em trilhar a criatividade como influencer usando os elementos do design para criar uma linguagem visual coerente? Por trás de cada postagem famosa há um par de olhos super atentos que sabem exatamente o que fazer. Transmitir consistência, ganhar patrocinadores, faturar alto exige conhecimento e expertise na composição de looks e fotos incríveis. Definir estilos, as ocasiões de uso e criar uma persona única e estilosa prá você arrasar como influencer é a jornada que vamos trilhar por aqui nesta oficina. Com uma metodologia única vamos te ensinar a construir a persona dos seus sonhos pra você brilhar.",
+      "mentors": [
+        {
+          "id": 1,
+          "name": "Dhora Costa"
+        },
+        {
+          "id": 2,
+          "name": "Eline Juchem e convidado"
+        }
+      ],
+      "targetAudience": [
+        {
+          "id": 1,
+          "description": "Influencers, Consultores de Imagem. Designers, estilistas, entusiastas de moda e produtos."
+        },
+        {
+          "id": 2,
+          "description": "Pré-requesito: um desejo de aprender, mesmo sem nenhuma experiência anterior."
+        }
+      ],
+      "roadmap": [
+        {
+          "id": 1,
+          "description": "Elementos do design aplicado à linguagem visual de moda: tipos físicos, estilos de vestir, linhas e cores."
+        },
+        {
+          "id": 2,
+          "description": "Tendências de comportamento e de moda."
+        },
+        {
+          "id": 3,
+          "description": "O que é persona? Mapeando a persona."
+        },
+        {
+          "id": 4,
+          "description": "Criando uma imagem autêntica: um estilo de vestir único e exclusivo, quebrando regras para ser diferente."
+        },
+        {
+          "id": 5,
+          "description": "Fotografia de moda: Direção criativa: Inspiração, temas favoritos, cenários, jornada de estilo."
+        },
+        {
+          "id": 6,
+          "description": "Personal Branding - Coordenação de cores e de peças, harmonia nos contrastes, criar uma marca pessoal através da consistência de imagem."
+        },
+        {
+          "id": 7,
+          "description": "Criar uma imagem coerente: influencers x marcas patrocinadoras x assuntos divulgados."
+        },
+        {
+          "id": 8,
+          "description": "Montando o seu book pessoal."
+        },
+        {
+          "id": 9,
+          "description": "Bônus: 01 Mentoria em grupo"
+        }
+      ],
+      "investment": [
+        {
+          "cashValue": "1.100,00",
+          "installmentValue": "308,44",
+          "numberInstallments": 4,
+          "link": "https://api.whatsapp.com/send?phone=5511993221695&text=Ol%C3%A1!%20Quero%20garantir%20minha%20vaga%20no%20curso:%20Oficina%20de%20Estilo%20para%20Influencers.%20%20"
+        }
+      ],
+      "informations": [
+        {
+          "dates": "11, 13, 18, 20, 25 e 28 de Setembro ás Segundas e Quartas: 19:30h - 22:30h",
+          "duration": "15 horas de aulas",
+          "modality": "Híbrido \n (Presencial / Online)"
+        }
+      ]
+    },
+    {
+      "about": "detalhes e descrição geral do curso da cinthia",
+      "targetAudience": [],
+      "mentors": [],
+      "roadmap": [],
+      "investment": [],
+      "informations": [],
+      "id": 3
+    }
+  ]
+}

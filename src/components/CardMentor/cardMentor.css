@@ -1,0 +1,58 @@
+
+
+.mentor-card {
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+    position: relative;
+    border-radius: 12px;
+    height: 400px;
+    margin-top: -180px;
+    text-align: center;
+    margin-bottom: 10px;
+    overflow: hidden;
+    width: 270px;
+    
+}
+
+.card-img-mentor{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.info-mentor {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.8) 10%, rgba(0, 212, 255, 0) 40%);
+    opacity: 1;
+  }
+
+  .name-mentor {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+  }
+  
+  .name-mentor h2 {
+    margin-bottom: 5px;
+    padding: 10px 30px;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  #mentores .btn-profile {
+    display: flex;
+    border: 1px solid #DE3E82;
+    margin-top: 16px;
+    padding: 10px;
+    border-radius: 50px;
+    font-weight: bold;
+    color: #DE3E82;
+    justify-content: center;
+    align-items: center;
+  }

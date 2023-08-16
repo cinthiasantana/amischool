@@ -1,0 +1,129 @@
+.container-details-profile {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 99999;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.content-profile {
+    position: absolute;
+    width: 85%;
+    height: 90vh;
+    background-color: #fff;
+    border-radius: .3rem;
+    display: flex;
+}
+
+.image-profile {
+    width: 50%;
+}
+
+.details-profile {
+    width: 50%;
+}
+
+
+
+
+
+.content-profile::after {
+    content: '';
+    height: 14px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    background-image: linear-gradient(to right, #DE3E82 20%, #C732B0 20%, #C732B0 40%, #AC2DB9 40%, #AC2DB9 60%, #E48B34 50%, #E48B34 80%, #E16A4C 80%, #E16A4C);
+}
+
+.content-profile .details-profile {
+    padding: 80px 80px 60px 0;
+}
+
+.content-profile .details-profile h1 {
+    color: #333333;
+    font-family: Urbanist;
+    font-weight: 700;
+}
+
+.content-profile .details-profile h3 {
+    color: #323232;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 20px 0;
+}
+
+.item-description {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.content-profile .details-profile p {
+    font-size: 16px;
+    color: #000;
+    width: 90%;
+    line-height: 22px;
+    padding-left: 10px;
+}
+
+.content-profile .details-profile span {
+    font-size: 16px;
+    padding-right: 4px;
+    color: #F2994A;
+    font-weight: bold;
+    margin-top: 3px;
+}
+
+.content-profile .image-profile {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.content-profile .image-profile img {
+    width: 65%;
+    height: 70vh;
+    object-fit: cover;
+    border: 6px solid #fff;
+    transition: 0.5s;
+    z-index: 99999;
+}
+
+.content-profile .image-profile img:hover {
+    transform: scale(1.03);
+}
+
+.content-profile .image-profile::before{
+    content: "";
+    position: absolute;
+    left: 75px;
+    top: 40px;
+    width: 50%;
+    height: 50%;
+    z-index: 1;
+    background-color: #F2994A;
+    transition: 0.5s;
+}
+
+.content-profile .image-profile::after {
+    content: "";
+    position: absolute;
+    right: 75px;
+    bottom: 40px;
+    width: 50%;
+    height: 50%;
+    z-index: 1;
+    background-color: #F2994A;
+    transition: 0.5s;
+}
